@@ -1,0 +1,442 @@
+<!--
+  ======================================================================
+  INSTITUCIÓN: CBTis 166 Pablo Torres Burgos
+  ----------------------------------------------------------------------
+  * Estudiante: Peralta Miranda Vanessa Marlen 
+  * Grupo: 3B PRO VESP  
+  * Actividad: Portal Institucional (Con barra superior, collage y formulario)
+  ====================================================================== -->
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Uaem-1956-Pajina oficial</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- BARRA SUPERIOR DE CONTACTO -->
+    <div class="top-bar" id="inicio">
+        <div class="top-bar-container">
+            <div class="top-contacts">
+                <span class="top-item">📞 777 345 670</span>
+                <span class="top-item whatsapp">💬 Puedes contactarnos por<strong>WhatsApp</strong></span>
+            </div>
+        </div>
+    </div>
+
+    <!-- BARRA DE NAVEGACIÓN PRINCIPAL -->
+    <header class="navbar">
+        <div class="nav-container">
+            <div class="nav-brand">
+                <a href="#inicio">
+                    <img src="UAEM.jpg" alt="UAEM 1956" class="brand-logo-img">
+                </a>
+            </div>
+            <nav class="nav-links">
+                <a href="#inicio">Horarios</a>
+                <a href="#oferta">Ofertas de Educasión</a>
+                <a href="login.html" class="btn-nav-login">Mas infosmació.</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- SECCIÓN DE DOS COLUMNAS CON COLLAGE DE IMÁGENES -->
+    <section class="hero-section">
+        <div class="hero-container">
+            
+            <!-- Columna Izquierda: Textos, Botón y Beneficios -->
+            <div class="hero-text-side">
+                <span class="hero-tag">¡INSCRIPCIONES ABIERTAS!</span>
+                <h1>Educación Superior a precios acesibles</h1>
+                <p> Podra estudiar la carrera que te guste y a tu propio ridmo.</p>
+                
+                <div class="hero-cta-box">
+                    <a href="login.html" class="btn-orange">Solicita informes →</a>
+                    <div class="hero-benefits">
+                        <span>✓ Aprendisajes con profecionales</span>
+                        <span>✓ Precio accecible </span>
+                        <span>✓ Prácticas para mayor aprendisaje.</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Columna Derecha: Collage de Imágenes -->
+            <div class="hero-image-side">
+                <div class="image-collage">
+                    <div class="collage-main">
+                        <img src="https://dondeestudiar.pe/wp-content/uploads/2022/10/Animacion-digital-carrera-768x481.jpg" alt="Animacón">
+                    </div>
+                    <div class="collage-sub">
+                        <img src="https://tse1.explicit.bing.net/th/id/OIP.Eg-_fIiWdjhr91lItpzu7gHaEK?r=0&rs=1&pid=ImgDetMain&o=7&rm=3" alt="COrte y confección">
+                        <img src="https://www.polisura.edu.co/wp-content/uploads/2024/09/aprender-diseno-grafico-1536x1024.jpg" alt="Diseño grafico">
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- SECCIÓN DE OFERTA EDUCATIVA CON IMÁGENES ALUSIVAS -->
+    <section id="oferta" class="careers-section">
+        <div class="section-container">
+            <div class="section-header">
+                <h2>Estas son nuestras 4 carreras disponibles.</h2>
+                <p>Selecciona la garrera de tus sueños o gusto.</p>
+            </div>
+
+            <div class="careers-grid">
+                
+                <!-- Carrera 1: Recursos Humanos -->
+                <div class="career-card">
+                    <div class="career-img-container">
+                        <img src="https://unicit.edu.ni/wp-content/uploads/2017/09/disenografico.jpg">
+                    </div>
+                    <div class="career-content">
+                        <h3>Diseño Grafico</h3>
+                        <p>Crea y diseña ideas para publicidades y ilistraciones, creativas y atractivas.</p>
+                    </div>
+                </div>
+
+                <!-- Carrera 2: Programación -->
+                <div class="career-card">
+                    <div class="career-img-container">
+                        <img src="https://tse3.mm.bing.net/th/id/OIP.7-RMRaku6_vrRoBYKtWuOAHaF7?r=0&rs=1&pid=ImgDetMain&o=7&rm=3" >
+                    </div>
+                    <div class="career-content">
+                        <h3>Corte y confeccion</h3>
+                        <p>Crea y confecciona ropa con tus ideas creativas. </p>
+                    </div>
+                </div>
+
+                <!-- Carrera 3: Ciberseguridad -->
+                <div class="career-card">
+                    <div class="career-img-container">
+                        <img src="https://images.griddo.udit.es/c/cover/q/70/w/1920/h/1080/f/jpeg/animacion-3d" >
+                    </div>
+                    <div class="career-content">
+                        <h3>Animación</h3>
+                        <p>Crea tus propias animaciones con tu propia creatividad y ideas.</p>
+                    </div>
+                </div>
+
+                <!-- Carrera 4: Laboratorista Clínico -->
+                <div class="career-card">
+                    <div class="career-img-container">
+                        <img src="https://mejorconsalud.as.com/wp-content/uploads/2021/11/diseno-interiores.jpg">
+                    </div>
+                    <div class="career-content">
+                        <h3>Diseño de interiores</h3>
+                        <p>Ayuda o creo tus propios diseños para los interiores de los hogares.</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCIÓN DE DOCENTES CON RECORRIDO INTERACTIVO (JS) -->
+    <section class="teachers-section">
+        <div class="teachers-container">
+            
+            <div class="teachers-header">
+                <div>
+                    <span class="teachers-tag">¿Quiéres saber un poco de nuestros docentes? </span>
+                    <h2>Aqui tenemos la información!</h2>
+                    <p>Nuestros dosentes se encargaran de enceñarte, explicarte y giarte en toda tu carrera de estudios.</p>
+                </div>
+                <!-- Botones funcionales con IDs -->
+                <div class="teachers-nav-buttons">
+                    <button id="btn-prev" class="nav-btn">‹</button>
+                    <button id="btn-next" class="nav-btn">›</button>
+                </div>
+            </div>
+
+            <!-- Contenedor de las tarjetas de docentes (controlado por JS) -->
+            <div class="teachers-grid" id="teachers-track">
+                
+                <!-- Grupo 1 (Primeros 4 profesores) -->
+                <div class="teacher-card">
+                    <img src="https://epperu.org/wp-content/uploads/2024/05/portada-noticias.jpg" alt="Profesor">
+                    <div class="teacher-info">
+                        <h3>Lis.Eduerdo Gomes</h3>
+                        <p>Especialista en diseños de interiores y decoraciñon de hogares.</p>
+                    </div>
+                </div>
+
+                <div class="teacher-card">
+                    <img src="https://img.freepik.com/premium-photo/21-year-old-female-teacher_862335-31468.jpg" alt="Profesora">
+                    <div class="teacher-info">
+                        <h3>Marta Elisabet</h3>
+                        <p>Lisenciada en diseño y confeccion de vestidos y moda.</p>
+                    </div>
+                </div>
+
+                <div class="teacher-card">
+                    <img src="https://img.freepik.com/premium-photo/young-women-teacher-stand-up-front-student_1015832-489.jpg" alt="Profesor">
+                    <div class="teacher-info">
+                        <h3>Narai Gonsales</h3>
+                        <p>Especialisada en diseño de articulos, ilustraciones entre otros.</p>
+                    </div>
+                </div>
+
+                <div class="teacher-card">
+                    <img src="https://koala.sh/api/image/v2-byag4-7i4i7.jpg?width=1344&height=768&dream" alt="Profesor">
+                    <div class="teacher-info">
+                        <h3> Emanuel Saragosa</h3>
+                        <p>Lisenciado en animación en 2D.</p>
+                    </div>
+                </div>
+
+                <!-- Grupo 2 (Otros 4 profesores / Ejemplos adicionales para el recorrido) -->
+                <div class="teacher-card">
+                    <img src="https://img.freepik.com/fotos-premium/retrato-profesor-escuela-exitoso-aula-o-entorno-educativo_525549-10966.jpg?w=2000="Profesora">
+                    <div class="teacher-info">
+                        <h3>Zonia Flores</h3>
+                        <p>Licenciada en animación en 3D en convinación con 2D.</p>
+                    </div>
+                </div>
+
+                <div class="teacher-card">
+                    <img src="https://img.freepik.com/premium-photo/portrait-smiling-male-teacher-class-elementary-school-looking-camera_152898-5089.jpg" alt="Profesor">
+                    <div class="teacher-info">
+                        <h3>Eduerdo Lopéz</h3>
+                        <p>Especialista en cromatica de colores para el diseño de interiores.</p>
+                    </div>
+                </div>
+
+                <div class="teacher-card">
+                    <img src="https://th.bing.com/th/id/R.40400787c8826392aac0ad6fa669f8b3?rik=IWvNRoh2U2Ueiw&riu=http%3a%2f%2fwww.tuproyectodevida.pe%2fwp-content%2fuploads%2f2022%2f11%2frazones-estudiar-educaci%c3%b3n-1200x628.jpg&ehk=nYDyShlG2XNEWACwgSVGZkjmn2vAdztzBjFWY8riYyA%3d&risl=&pid=ImgRaw&r=0" alt="Profesora">
+                    <div class="teacher-info">
+                        <h3>Sara Sofia</h3>
+                        <p>Lisenciada en cortes de tela y tecnicas de costura.</p>
+                    </div>
+                </div>
+
+                <div class="teacher-card">
+                    <img src="https://d1sxl0l7d1t30i.cloudfront.net/2025/05/teacher-app-tablet-update.jpg" alt="Profesor">
+                    <div class="teacher-info">
+                        <h3>Israel Gomes </h3>
+                        <h4>Especialista en: </h4>
+                        <ol>
+                            <li>Diseño de logotipos</li>
+                            <li>Ilustraciones</li>
+                            <li>Diseño de articulos</li>
+                        </ol>
+                    
+                        
+                        
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+    <section class="hero-section">
+     <header>
+                    <h2>VIDEO SOBRE NOSOTROS Y NUESTA COMUNIDAD!</h2>
+                </header>
+                
+                <div class="video-container"> display: flex;
+                            justify-contet: center;
+                            align-items: center;
+                    <iframe src="https://www.youtube.com/embed/Gyf7jDEBOWM"
+                            title="YouTube video player" 
+                            width="858"
+                            height="698"
+                            frameborder="0" 
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                            allowfullscreen>
+                    </iframe>
+                </div>
+            </section>
+        
+    <header>
+    <!-- SECCIÓN DE DOS COLUMNAS CON FORMULARIO INTEGRADO -->
+    <section class="hero-section">
+        <div class="hero-container">
+            
+            <!-- Columna Izquierda: Textos y Beneficios (Estilo UMOV) -->
+            <div class="hero-text-side">
+                <span class="hero-tag">¡INSCRIPCIONES DISPONIBLES!</span>
+                <h1 class="hero-title-custom"></h1>
+                <p class="hero-desc-custom">
+                    Déjanos tus datos y te contactaremos para ayudarte a elegir la carrera de tu interés en nuestra istitución
+                </p>
+                
+                <div class="hero-subtitle-custom">
+                    Conose todo sobre nosotros!
+                </div>
+                <div class="hero-benefits hero-benefits-column">
+                    <span>✓ Practicas que fortalecen</span>
+                    <span>✓ Promociones de precios</span>
+                    <span>✓ Prosesos seguros de incripciones</span>
+                    <span>✓ Vaidada y titulasión de la mejor manrea </span>
+                </div>
+            </div>
+
+            <!-- Columna Derecha: Tarjeta Flotante con Formulario (10 campos/etiquetas) -->
+            <div class="hero-form-side">
+                <div class="cbtis-hero-form-card">
+                    
+                    <h3 class="form-card-title">
+                        Solicita informes
+                    </h3>
+
+                    <form id="form-hero-informes" action="#" method="POST">
+                        
+                        <!-- 1. Campo de Texto: Nombre -->
+                        <div class="cbtis-input-group form-group-margin">
+                            <input type="text" id="info_nombre" name="nombre" required placeholder="Nombre" class="form-control-input">
+                        </div>
+
+                        <!-- 2. Campo de Texto: Apellido -->
+                        <div class="cbtis-input-group form-group-margin">
+                            <input type="text" id="info_apellido" name="apellido" required placeholder="Apellido" class="form-control-input">
+                        </div>
+
+                        <!-- 3. Campo de Correo Electrónico -->
+                        <div class="cbtis-input-group form-group-margin">
+                            <input type="email" id="info_email" name="email" required placeholder="Correo electrónico" class="form-control-input">
+                        </div>
+
+                        <!-- 4. Campo de Teléfono -->
+                        <div class="cbtis-input-group form-group-margin">
+                            <input type="tel" id="info_telefono" name="telefono" required placeholder="Teléfono o WhatsApp" class="form-control-input">
+                        </div>
+
+                        <!-- 5. Menú Desplegable (Select): Nivel de Estudios -->
+                        <div class="cbtis-input-group form-group-margin">
+                            <select id="info_nivel" name="nivel" required class="form-control-select">
+                                <option value="">Elige el nivel que quieras estudiar</option>
+                                <option value="media">Educación Superior</option>
+                                <option valie="secundaria">Educacion Media Suerior</option>
+                            </select>
+                        </div>
+
+                        <!-- 6. Menú Desplegable (Select): Carrera Técnica -->
+                        <div class="cbtis-input-group form-group-margin">
+                            <select id="info_carrera" name="carrera" required class="form-control-select">
+                                <option value="">Elige la carrera de tu gusto</option>
+                                <option value="Diseño Grafico">Diseño Grafico</option>
+                                <option value="Corte y confección">Corte y confección</option>
+                                <option value="Animación">Animación</option>
+                                <option value="Diseño de interiores">Diseño de interiores</option>
+                            </select>
+                        </div>
+
+                        <!-- 7. Campo de Fecha (Date): Fecha estimada de ingreso -->
+                        <div class="cbtis-input-group form-group-margin">
+                            <label for="info_fecha" class="form-date-label">Fecha estimada de ingreso:</label>
+                            <input type="date" id="info_fecha" name="fecha" required class="form-control-date">
+                        </div>
+
+                        <!-- 8. Área de Texto (Textarea): Dudas adicionales -->
+                        <div class="cbtis-input-group form-group-margin">
+                            <textarea id="info_comentarios" name="comentarios" rows="2" placeholder="Escribe tus dudas o comentarios..." class="form-control-textarea"></textarea>
+                        </div>
+
+                      <!-- 9. Casilla de Verificación (Checkbox): Términos y privacidad -->
+                        <div class="cbtis-input-group form-group-checkbox">
+                            <input type="checkbox" id="info_terminos" name="terminos" required class="form-checkbox-input">
+                            <label for="info_terminos" class="form-checkbox-label">
+                                Permitir recibir información y notificaciones de la UAEM
+                            </label>
+                        </div>
+
+                        <!-- 10. Botón de Envío (Submit Button) -->
+                        <button type="submit" class="cbtis-btn-ingresar form-submit-btn">
+                            Solicitar informes
+                        </button>
+
+                    </form>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- SECCIÓN DE CONVENIOS DOBLE LÍNEA -->
+    <section class="convenios-section">
+        <div class="convenios-container">
+            
+            <div class="section-header">
+                <span class="teachers-tag convenience-tag-custom">¿Tiene3s mas dudas contactanos?</span>
+                <h2>ES TODO GRACIAS POR TU VICITA!</h2>
+                <p>Grandes empresas e instituciones forman a sus colaboradores en nuestro plantel y contratan a nuestra comunidad egresada.</p>
+            </div>
+
+            <!-- LÍNEA 1: Se desplaza hacia la IZQUIERDA -->
+            <div class="marquee-wrapper">
+                <div class="marquee-track marquee-track-top">
+                    <div class="convenio-card">🏢 PEMEX</div>
+                    <div class="convenio-card">🚗 Grupo Carso</div>
+                    <div class="convenio-card">🏦 Citibanamex</div>
+                    <div class="convenio-card">📞 TELMEX</div>
+                    <div class="convenio-card">🏛️ Secretaría de Hacienda</div>
+                    <div class="convenio-card">📦 Mercado Libre</div>
+                    <div class="convenio-card">🌴 Grupo Xcaret</div>
+                    <div class="convenio-card">🌐 CISCO Networking</div>
+                    <!-- Duplicado para efecto infinito fluido -->
+                    <div class="convenio-card">🏢 PEMEX</div>
+                    <div class="convenio-card">🚗 Grupo Carso</div>
+                    <div class="convenio-card">🏦 Citibanamex</div>
+                    <div class="convenio-card">📞 TELMEX</div>
+                    <div class="convenio-card">🏛️ Secretaría de Hacienda</div>
+                    <div class="convenio-card">📦 Mercado Libre</div>
+                    <div class="convenio-card">🌴 Grupo Xcaret</div>
+                    <div class="convenio-card">🌐 CISCO Networking</div>
+                </div>
+            </div>
+
+            <!-- LÍNEA 2: Se desplaza hacia la DERECHA -->
+            <div class="marquee-wrapper marquee-wrapper-spacing">
+                <div class="marquee-track marquee-track-bottom">
+                    <div class="convenio-card">📰 Grupo Milenio</div>
+                    <div class="convenio-card">💊 San Pablo Farmacia</div>
+                    <div class="convenio-card">🏪 OXXO</div>
+                    <div class="convenio-card">⚡ Grupo Salinas</div>
+                    <div class="convenio-card">💻 Microsoft Partner</div>
+                    <div class="convenio-card">🎓 UNAM Vinculación</div>
+                    <div class="convenio-card">🏥 Hospital General</div>
+                    <div class="convenio-card">⚙️ Bosch México</div>
+                    <!-- Duplicado para efecto infinito fluido -->
+                    <div class="convenio-card">📰 Grupo Milenio</div>
+                    <div class="convenio-card">💊 San Pablo Farmacia</div>
+                    <div class="convenio-card">🏪 OXXO</div>
+                    <div class="convenio-card">⚡ Grupo Salinas</div>
+                    <div class="convenio-card">💻 Microsoft Partner</div>
+                    <div class="convenio-card">🎓 UNAM Vinculación</div>
+                    <div class="convenio-card">🏥 Hospital General</div>
+                    <div class="convenio-card">⚙️ Bosch México</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- PIE DE PÁGINA (FOOTER CON REDES SOCIALES) -->
+    <footer class="footer">
+        <div class="footer-container">
+            
+            <div class="footer-info">
+                <p>CBTis 166 Pablo Torres Burgos &copy; 2026</p>
+                <p class="footer-author">Desarrollado por: Gaona Castro Eduardo Baltazar (3B PRO VESP)</p>
+            </div>
+
+            <!-- Enlaces de Redes Sociales -->
+            <div class="footer-socials">
+                <a href="https://facebook.com" target="_blank" class="social-icon" title="Facebook">f</a>
+                <a href="https://instagram.com" target="_blank" class="social-icon" title="Instagram">ig</a>
+                <a href="https://whatsapp.com" target="_blank" class="social-icon" title="WhatsApp">💬</a>
+                <a href="https://youtube.com" target="_blank" class="social-icon" title="YouTube"> ▶</a>
+            </div>
+
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
